@@ -1,0 +1,100 @@
+<html>
+<head></head><H1>Table</H1>
+<body>
+<table border = 1>
+<th>N</th>
+<th>Stack</th>
+<th>Sign</th>
+<th>Current_Symbol</th>
+<tr><td>0</td><td># </td><td><</td><td>program</td></tr>
+<tr><td>1</td><td># program </td><td>=</td><td>id</td></tr>
+<tr><td>2</td><td># program id </td><td>=</td><td>var</td></tr>
+<tr><td>3</td><td># program id var </td><td><</td><td>,</td></tr>
+<tr><td>4</td><td># program id var , </td><td>=</td><td>id</td></tr>
+<tr><td>5</td><td># program id var , id </td><td>></td><td>,</td></tr>
+<tr><td>6</td><td># program id var <сп.id> </td><td>=</td><td>,</td></tr>
+<tr><td>7</td><td># program id var <сп.id> , </td><td>=</td><td>id</td></tr>
+<tr><td>8</td><td># program id var <сп.id> , id </td><td>></td><td>:</td></tr>
+<tr><td>9</td><td># program id var <сп.id> </td><td>></td><td>:</td></tr>
+<tr><td>10</td><td># program id var <сп.id1> </td><td>=</td><td>:</td></tr>
+<tr><td>11</td><td># program id var <сп.id1> : </td><td><</td><td>real</td></tr>
+<tr><td>12</td><td># program id var <сп.id1> : real </td><td>></td><td>begin</td></tr>
+<tr><td>13</td><td># program id var <сп.id1> : <тип> </td><td>></td><td>begin</td></tr>
+<tr><td>14</td><td># program id var <ог> </td><td>></td><td>begin</td></tr>
+<tr><td>15</td><td># program id var <сп.ог> </td><td>></td><td>begin</td></tr>
+<tr><td>16</td><td># program id var <сп.ог1> </td><td>=</td><td>begin</td></tr>
+<tr><td>17</td><td># program id var <сп.ог1> begin </td><td><</td><td>id</td></tr>
+<tr><td>18</td><td># program id var <сп.ог1> begin id </td><td>=</td><td>=</td></tr>
+<tr><td>19</td><td># program id var <сп.ог1> begin id = </td><td><</td><td>const</td></tr>
+<tr><td>20</td><td># program id var <сп.ог1> begin id = const </td><td>></td><td>;</td></tr>
+<tr><td>21</td><td># program id var <сп.ог1> begin id = <м> </td><td>></td><td>;</td></tr>
+<tr><td>22</td><td># program id var <сп.ог1> begin id = <т> </td><td>></td><td>;</td></tr>
+<tr><td>23</td><td># program id var <сп.ог1> begin id = <т1> </td><td>></td><td>;</td></tr>
+<tr><td>24</td><td># program id var <сп.ог1> begin id = <в> </td><td>></td><td>;</td></tr>
+<tr><td>25</td><td># program id var <сп.ог1> begin id = <в1> </td><td>></td><td>;</td></tr>
+<tr><td>26</td><td># program id var <сп.ог1> begin <присв> </td><td>></td><td>;</td></tr>
+<tr><td>27</td><td># program id var <сп.ог1> begin <оп> </td><td>></td><td>;</td></tr>
+<tr><td>28</td><td># program id var <сп.ог1> begin <сп.оп> </td><td>=</td><td>;</td></tr>
+<tr><td>29</td><td># program id var <сп.ог1> begin <сп.оп> ; </td><td><</td><td>read</td></tr>
+<tr><td>30</td><td># program id var <сп.ог1> begin <сп.оп> ; read </td><td>=</td><td>(</td></tr>
+<tr><td>31</td><td># program id var <сп.ог1> begin <сп.оп> ; read ( </td><td><</td><td>,</td></tr>
+<tr><td>32</td><td># program id var <сп.ог1> begin <сп.оп> ; read ( , </td><td>=</td><td>id</td></tr>
+<tr><td>33</td><td># program id var <сп.ог1> begin <сп.оп> ; read ( , id </td><td>></td><td>)</td></tr>
+<tr><td>34</td><td># program id var <сп.ог1> begin <сп.оп> ; read ( <сп.id> </td><td>></td><td>)</td></tr>
+<tr><td>35</td><td># program id var <сп.ог1> begin <сп.оп> ; read ( <сп.id1> </td><td>=</td><td>)</td></tr>
+<tr><td>36</td><td># program id var <сп.ог1> begin <сп.оп> ; read ( <сп.id1> ) </td><td>></td><td>;</td></tr>
+<tr><td>37</td><td># program id var <сп.ог1> begin <сп.оп> ; <ввід> </td><td>></td><td>;</td></tr>
+<tr><td>38</td><td># program id var <сп.ог1> begin <сп.оп> ; <оп> </td><td>></td><td>;</td></tr>
+<tr><td>39</td><td># program id var <сп.ог1> begin <сп.оп> </td><td>=</td><td>;</td></tr>
+<tr><td>40</td><td># program id var <сп.ог1> begin <сп.оп> ; </td><td><</td><td>while</td></tr>
+<tr><td>41</td><td># program id var <сп.ог1> begin <сп.оп> ; while </td><td><</td><td>id</td></tr>
+<tr><td>42</td><td># program id var <сп.ог1> begin <сп.оп> ; while id </td><td>></td><td>>=</td></tr>
+<tr><td>43</td><td># program id var <сп.ог1> begin <сп.оп> ; while <м> </td><td>></td><td>>=</td></tr>
+<tr><td>44</td><td># program id var <сп.ог1> begin <сп.оп> ; while <т> </td><td>></td><td>>=</td></tr>
+<tr><td>45</td><td># program id var <сп.ог1> begin <сп.оп> ; while <т1> </td><td>></td><td>>=</td></tr>
+<tr><td>46</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в> </td><td>></td><td>>=</td></tr>
+<tr><td>47</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> </td><td>=</td><td>>=</td></tr>
+<tr><td>48</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= </td><td><</td><td>id</td></tr>
+<tr><td>49</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= id </td><td>></td><td>do</td></tr>
+<tr><td>50</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= <м> </td><td>></td><td>do</td></tr>
+<tr><td>51</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= <т> </td><td>></td><td>do</td></tr>
+<tr><td>52</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= <т1> </td><td>></td><td>do</td></tr>
+<tr><td>53</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= <в> </td><td>></td><td>do</td></tr>
+<tr><td>54</td><td># program id var <сп.ог1> begin <сп.оп> ; while <в1> >= <в1> </td><td>></td><td>do</td></tr>
+<tr><td>55</td><td># program id var <сп.ог1> begin <сп.оп> ; while <відн> </td><td>></td><td>do</td></tr>
+<tr><td>56</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лм> </td><td>></td><td>do</td></tr>
+<tr><td>57</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лт> </td><td>></td><td>do</td></tr>
+<tr><td>58</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лт1> </td><td>></td><td>do</td></tr>
+<tr><td>59</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в> </td><td>></td><td>do</td></tr>
+<tr><td>60</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> </td><td>=</td><td>do</td></tr>
+<tr><td>61</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do </td><td><</td><td>write</td></tr>
+<tr><td>62</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write </td><td>=</td><td>(</td></tr>
+<tr><td>63</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write ( </td><td><</td><td>,</td></tr>
+<tr><td>64</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write ( , </td><td>=</td><td>id</td></tr>
+<tr><td>65</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write ( , id </td><td>></td><td>)</td></tr>
+<tr><td>66</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write ( <сп.id> </td><td>></td><td>)</td></tr>
+<tr><td>67</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write ( <сп.id1> </td><td>=</td><td>)</td></tr>
+<tr><td>68</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do write ( <сп.id1> ) </td><td>></td><td>;</td></tr>
+<tr><td>69</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do <вивід> </td><td>></td><td>;</td></tr>
+<tr><td>70</td><td># program id var <сп.ог1> begin <сп.оп> ; while <лог.в1> do <оп> </td><td>></td><td>;</td></tr>
+<tr><td>71</td><td># program id var <сп.ог1> begin <сп.оп> ; <цикл> </td><td>></td><td>;</td></tr>
+<tr><td>72</td><td># program id var <сп.ог1> begin <сп.оп> ; <оп> </td><td>></td><td>;</td></tr>
+<tr><td>73</td><td># program id var <сп.ог1> begin <сп.оп> </td><td>=</td><td>;</td></tr>
+<tr><td>74</td><td># program id var <сп.ог1> begin <сп.оп> ; </td><td><</td><td>id</td></tr>
+<tr><td>75</td><td># program id var <сп.ог1> begin <сп.оп> ; id </td><td>=</td><td>=</td></tr>
+<tr><td>76</td><td># program id var <сп.ог1> begin <сп.оп> ; id = </td><td><</td><td>const</td></tr>
+<tr><td>77</td><td># program id var <сп.ог1> begin <сп.оп> ; id = const </td><td>></td><td>end.</td></tr>
+<tr><td>78</td><td># program id var <сп.ог1> begin <сп.оп> ; id = <м> </td><td>></td><td>end.</td></tr>
+<tr><td>79</td><td># program id var <сп.ог1> begin <сп.оп> ; id = <т> </td><td>></td><td>end.</td></tr>
+<tr><td>80</td><td># program id var <сп.ог1> begin <сп.оп> ; id = <т1> </td><td>></td><td>end.</td></tr>
+<tr><td>81</td><td># program id var <сп.ог1> begin <сп.оп> ; id = <в> </td><td>></td><td>end.</td></tr>
+<tr><td>82</td><td># program id var <сп.ог1> begin <сп.оп> ; id = <в1> </td><td>></td><td>end.</td></tr>
+<tr><td>83</td><td># program id var <сп.ог1> begin <сп.оп> ; <присв> </td><td>></td><td>end.</td></tr>
+<tr><td>84</td><td># program id var <сп.ог1> begin <сп.оп> ; <оп> </td><td>></td><td>end.</td></tr>
+<tr><td>85</td><td># program id var <сп.ог1> begin <сп.оп> </td><td>></td><td>end.</td></tr>
+<tr><td>86</td><td># program id var <сп.ог1> begin <сп.оп1> </td><td>=</td><td>end.</td></tr>
+<tr><td>87</td><td># program id var <сп.ог1> begin <сп.оп1> end. </td><td>></td><td>#</td></tr>
+<tr><td>88</td><td># <прог> </td><td>></td><td>#</td></tr>
+</table>
+</body>
+</html>

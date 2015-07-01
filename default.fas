@@ -1,0 +1,9 @@
+program test
+var,i,n:real
+begin
+i = 3.3E+2 + 6 * (10 - n);
+read(,n);
+while [n >= i] and [i != 3]
+do
+write(,n)
+end.

@@ -1,0 +1,1 @@
+analyzer.syntax.automat.Stack
